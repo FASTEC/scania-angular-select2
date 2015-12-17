@@ -100,5 +100,5 @@
      *
      * @description AngularJS directive for Select2
      */
-    angular.module('scania.angular.select2', []).directive('scSelect2', scSelect2);
+    angular.module('scania.angular.select2', []).directive('scSelect2', ["$compile", "$timeout", scSelect2]);
 })();
